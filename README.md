@@ -20,6 +20,12 @@ This is a client project that uses the following libraries:
 
 `npm install -s styled-components`
 
+4. react-scrollable-anchor
+
+- animated scroll functionality based on navigation click
+
+`npm install -s react-scrollable-anchor`
+
 ## Available Scripts
 
 In the project directory, you can run:

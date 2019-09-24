@@ -1,0 +1,15 @@
+.image-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  z-index: 100;
+  display: flex;
+  flex-flow: row nowrap;
+
+  & .col {
+    width: 50%;
+  }
+}

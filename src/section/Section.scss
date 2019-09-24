@@ -1,0 +1,13 @@
+section {
+  min-height: calc(100vh - 7rem);
+  margin: 1.4rem 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cc99aa;
+
+  & h1 {
+    text-align: center;
+  }
+}

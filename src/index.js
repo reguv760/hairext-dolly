@@ -6,7 +6,7 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 //import 'normalize.css'
 
 //main component
-import App from './App';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<CssBaseline><App/></CssBaseline>, document.getElementById('root'));
@@ -15,5 +15,5 @@ ReactDOM.render(<CssBaseline><App/></CssBaseline>, document.getElementById('root
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 
-//hrs1.5
+//hrs2
 serviceWorker.unregister();

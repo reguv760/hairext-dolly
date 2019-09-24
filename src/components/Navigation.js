@@ -10,17 +10,17 @@ class Navigation extends React.Component
             <AppBar 
                 position="fixed" 
                 style={{
-                    backgroundColor: '#FF00FF', height:'3rem', 
+                    backgroundColor: '#FF00FF', height:'5rem', 
                     margin: '0', 
                     padding:"0", 
                     display: "flex", justifyContent: "center"
                 }}>
                 <ul>
-                    <li>Link 1</li>
+                    <li><a href="#Home">Home</a></li>
                     <li>Link 2</li>
-                    <li>Link 3</li>
+                    <li><a href="#About">About</a></li>
                     <li>Link 4</li>
-                    <li>Link 5</li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </AppBar>
         )

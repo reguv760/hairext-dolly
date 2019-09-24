@@ -9,5 +9,14 @@ ul {
     margin: 0 1rem;
     font-weight: bold;
     font-size: 1rem;
+
+    & a {
+      color: $dollyDarkBlue;
+      text-decoration: none;
+    }
+
+    & a:hover {
+      color: $dollyMagenta-light;
+    }
   }
 }
