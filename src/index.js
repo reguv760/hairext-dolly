@@ -17,5 +17,5 @@ ReactDOM.render(<CssBaseline><App/></CssBaseline>, document.getElementById('root
 // Learn more about service workers: https://bit.ly/CRA-PWA
 
 //hrs4.5 - wip
-//hrs1 - wire
+//hrs2 - wire
 serviceWorker.unregister();

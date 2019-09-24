@@ -2,7 +2,14 @@ html {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #335533; /* this matches color from <Container> in App.js */
+  /* background-color: #335533; this matches color from <Container> in App.js */
+
+  background: rgb(228, 80, 149);
+  background: linear-gradient(
+    90deg,
+    rgba(228, 80, 149, 1) 0%,
+    rgba(0, 0, 0, 1) 70%
+  );
 }
 
 body {

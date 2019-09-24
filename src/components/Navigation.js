@@ -12,7 +12,7 @@ class Navigation extends React.Component
             <AppBar 
                 position="fixed" 
                 style={{
-                    backgroundColor: '#FF00FF', 
+                    backgroundColor: '#e45095', 
                     height:'5rem', 
                     margin: '0', 
                     padding:"0", 

@@ -2,7 +2,7 @@ section {
   min-height: calc(100vh - 7rem);
   margin: 1.4rem 0;
   padding: 0;
-  background-color: $dollyMagenta-light;
+  background-color: $off-white;
   border-radius: 0.25rem;
 
   & .section-container {
@@ -12,7 +12,7 @@ section {
     & h1 {
       font-weight: bold;
       font-size: 1.4rem;
-      color: $off-white;
+      color: $dollyMagenta;
     }
 
     &__text {

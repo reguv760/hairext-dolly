@@ -31,7 +31,7 @@ class App extends React.Component
     render()
     {
         return (
-            <Container style={{backgroundColor: "#335533"}}>                
+            <Container style={{ background: "linear-gradient(90deg, rgba(228,80,149,1) 0%, rgba(0,0,0,1) 70%)" }}>                
                 <MainContainer id="main-container">
 
                     <Navigation/>      
