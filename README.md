@@ -26,6 +26,13 @@ This is a client project that uses the following libraries:
 
 `npm install -s react-scrollable-anchor`
 
+5 material-ui: core and icons
+
+- style provided by Google
+
+`npm install @material-ui/core`
+`npm install @material-ui/icons`
+
 ## Available Scripts
 
 In the project directory, you can run:

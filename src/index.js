@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 
 //style
 import CssBaseline from '@material-ui/core/CssBaseline'
-//import 'normalize.css'
 
 //main component
 import App from './components/App';
@@ -15,5 +14,5 @@ ReactDOM.render(<CssBaseline><App/></CssBaseline>, document.getElementById('root
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 
-//hrs2
+//hrs3.5
 serviceWorker.unregister();

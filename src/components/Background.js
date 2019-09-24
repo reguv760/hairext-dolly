@@ -5,7 +5,7 @@ class Background extends React.Component
     render()
     {
         return(
-            <div className="image-background">
+            <div id="image-background">
               <div className="col" style={{backgroundColor: "green"}}>
 
               </div>

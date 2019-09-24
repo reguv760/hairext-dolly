@@ -1,0 +1,83 @@
+//triggered when screen GOES above <res>
+// Small devices (landscape phones, 576px and up)
+
+@media (min-width: 400px) {
+  .jumbotron {
+    & .pageContent {
+      & h1 {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  .ilw {
+    & .panel {
+      & iframe {
+        width: 100%;
+        height: 9.5rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .navbar-nav {
+    & .nav-item {
+      margin: 0.5rem 0;
+    }
+  }
+
+  .container .list-group {
+    & .list-group-item {
+      & a {
+        margin: 1rem 0;
+      }
+    }
+  }
+}
+
+//triggered when screen GOES above <res>
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+  #main-container {
+    position: relative;
+    right: 0;
+  }
+
+  ul.wide-menu {
+    display: none;
+  }
+
+  .mobileMenu {
+    display: flex;
+  }
+  #image-background {
+    display: none;
+  }
+}
+
+// Medium devices (tablets, 600 and up)
+@media (min-width: 600px) {
+}
+
+// Large devices (desktops, 960px and up)
+@media (min-width: 960px) {
+  #image-background {
+    display: flex;
+  }
+  ul.wide-menu {
+    display: flex;
+  }
+
+  .mobileMenu {
+    display: none;
+  }
+}
+
+// large devices (large desktops, 1280px  and up)
+@media (min-width: 1280px) {
+  #main-container {
+    position: absolute;
+    right: 2rem;
+  }
+}

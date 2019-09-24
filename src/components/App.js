@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
+import Container from '@material-ui/core/Container';
 import { configureAnchors } from 'react-scrollable-anchor'
 
 
@@ -15,23 +16,23 @@ import ContactSection from './../section/Contact';
 import FooterSection from './Footer';
 import Background from './Background';
 
-configureAnchors({ offset: -100, scrollDuration: 500})
+configureAnchors({ offset: -100, scrollDuration: 750})
 
-const MainContainer = styled.div`    
-    position: relative;
-    top: 3rem;
+const MainContainer = styled.div`  
+    top: 4.5rem;
     padding: 0;
-    width: 75vw;
+    width: 80vw;
     margin:0 auto;
     z-index: 1000;
+    backgroundColor:#cc3355;
 `
 class App extends React.Component 
 {
     render()
     {
         return (
-            <div>                
-                <MainContainer>
+            <Container >                
+                <MainContainer id="main-container">
 
                     <Navigation/>      
 
@@ -43,10 +44,7 @@ class App extends React.Component
                 </MainContainer>
 
                 <Background />
-
-
-
-            </div>
+            </Container>
         )
     }
 }
