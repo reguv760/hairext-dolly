@@ -4,8 +4,6 @@ import Container from '@material-ui/core/Container';
 import { configureAnchors } from 'react-scrollable-anchor'
 
 
-//style::
-import './../style/style.scss';
 
 //components:::
 import Navigation from './Navigation';
@@ -24,14 +22,13 @@ const MainContainer = styled.div`
     width: 80vw;
     margin:0 auto;
     z-index: 1000;
-    backgroundColor:#cc3355;
 `
 class App extends React.Component 
 {
     render()
     {
         return (
-            <Container >                
+            <Container style={{backgroundColor: "#335533"}}>                
                 <MainContainer id="main-container">
 
                     <Navigation/>      

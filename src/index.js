@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 
 //style
 import CssBaseline from '@material-ui/core/CssBaseline'
+//style::
+import './style/style.scss';
 
 //main component
 import App from './components/App';
