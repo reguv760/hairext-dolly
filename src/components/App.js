@@ -22,6 +22,8 @@ const MainContainer = styled.div`
     width: 80vw;
     margin:0 auto;
     z-index: 1000;
+    display: flex;
+    flex-flow: column nowrap;
 `
 class App extends React.Component 
 {

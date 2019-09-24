@@ -52,7 +52,7 @@
     display: flex;
   }
   #image-background {
-    display: hidden;
+    display: none;
   }
 
   .section-container {
@@ -89,7 +89,7 @@
 
   .section-container {
     &__text {
-      width: 75%;
+      width: 80%;
 
       & h1 {
         text-align: right;
