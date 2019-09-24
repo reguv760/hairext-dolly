@@ -33,6 +33,12 @@ This is a client project that uses the following libraries:
 `npm install @material-ui/core`
 `npm install @material-ui/icons`
 
+6. react-ga
+
+- Add Google Analytics to React project
+
+`npm install --save react-ga`
+
 ## Available Scripts
 
 In the project directory, you can run:

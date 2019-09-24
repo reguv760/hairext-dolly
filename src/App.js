@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import Container from '@material-ui/core/Container';
 import { configureAnchors } from 'react-scrollable-anchor'
-
+import ReactGA from 'react-ga';
 
 
 //components:::
@@ -15,6 +15,7 @@ import FooterSection from './components/Footer';
 import Background from './components/Background';
 
 configureAnchors({ offset: -100, scrollDuration: 750})
+ReactGA.initialize('UA-6371690-3');
 
 const MainContainer = styled.div`  
     top: 4.5rem;
