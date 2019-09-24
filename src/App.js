@@ -6,13 +6,13 @@ import { configureAnchors } from 'react-scrollable-anchor'
 
 
 //components:::
-import Navigation from './Navigation';
-import HomeSection from './../section/Home';
-import AboutSection from './../section/About';
-import ContactSection from './../section/Contact';
+import Navigation from './components/Navigation';
+import HomeSection from './section/Home';
+import AboutSection from './section/About';
+import ContactSection from './section/Contact';
 
-import FooterSection from './Footer';
-import Background from './Background';
+import FooterSection from './components/Footer';
+import Background from './components/Background';
 
 configureAnchors({ offset: -100, scrollDuration: 750})
 
