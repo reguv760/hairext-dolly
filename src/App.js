@@ -8,7 +8,9 @@ import ReactGA from 'react-ga';
 //components:::
 import Navigation from './components/Navigation';
 import HomeSection from './section/Home';
+import ServicesSection from './section/Services';
 import AboutSection from './section/About';
+import GallerySection from './section/Gallery';
 import ContactSection from './section/Contact';
 
 import FooterSection from './components/Footer';
@@ -37,7 +39,9 @@ class App extends React.Component
                     <Navigation/>      
 
                     <HomeSection />
-                    <AboutSection />                  
+                    <ServicesSection />
+                    <AboutSection />   
+                    <GallerySection />               
                     <ContactSection /> 
 
                     <FooterSection />
