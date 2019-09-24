@@ -7,7 +7,7 @@ import BeforeAfter from './../components/BeforeAfter';
 const GallerySection = () =>
 {
     return (
-        <ScrollableAnchor id={'About'}>
+        <ScrollableAnchor id={'Gallery'}>
             <section>
             <Container className="section-container" >
                     <div className="section-container__text">

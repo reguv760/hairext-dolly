@@ -29,9 +29,9 @@ class Navigation extends React.Component
                     <MobileMenu />
                     <ul className="wide-menu">
                         <li><a href="#Home">Home</a></li>
-                        <li>Link 2</li>
+                        <li><a href="#Services">Services</a></li>
                         <li><a href="#About">About</a></li>
-                        <li>Link 4</li>
+                        <li><a href="#Gallery">Gallery</a></li>
                         <li><a href="#Contact">Contact</a></li>
                     </ul>
                 </div>
