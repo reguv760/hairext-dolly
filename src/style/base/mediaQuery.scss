@@ -54,6 +54,20 @@
   #image-background {
     display: none;
   }
+
+  .section-container {
+    &__text {
+      width: 100%;
+
+      & h1 {
+        text-align: center;
+      }
+      & p {
+        text-align: left;
+        width: 100%;
+      }
+    }
+  }
 }
 
 // Medium devices (tablets, 600 and up)
@@ -71,6 +85,20 @@
 
   .mobileMenu {
     display: none;
+  }
+
+  .section-container {
+    &__text {
+      width: 75%;
+
+      & h1 {
+        text-align: right;
+      }
+      & p {
+        align-self: flex-end;
+        text-align: right;
+      }
+    }
   }
 }
 

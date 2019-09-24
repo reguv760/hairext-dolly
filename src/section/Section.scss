@@ -2,12 +2,19 @@ section {
   min-height: calc(100vh - 7rem);
   margin: 1.4rem 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #cc99aa;
 
-  & h1 {
-    text-align: center;
+  & .section-container {
+    display: flex;
+    justify-content: flex-end;
+
+    & h1 {
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+
+    &__text {
+      font-size: 1rem;
+    }
   }
 }
