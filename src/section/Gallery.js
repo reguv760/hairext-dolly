@@ -12,7 +12,7 @@ const GallerySection = () =>
             <Container className="section-container" >
                     <div className="section-container__text">
                         <h1>Gallery</h1>
-                        <p>Click on the samples below to see what I can do for you.</p>
+                        <p><span className="bold-text">Click on the samples</span> below to see what I can do for you.</p>
 
                         < BeforeAfter />
                     </div>

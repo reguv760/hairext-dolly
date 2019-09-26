@@ -10,7 +10,17 @@ const ContactSection = () =>
             <Container className="section-container">
                     <div className="section-container__text">
                         <h1>Contact</h1>
-                        <p>I'm available Monday thru Friday, 9am – 5pm. I can be available evenings and Saturdays upon special requests. Mention this website and receive 10% off your first visit!</p>
+
+                        <h1 className="email">
+                            <a href="mailto:hcoolhouse56@yahoo.com">                            hcoolhouse56@yahoo.com</a>
+                        </h1>
+
+                        <h1 className="phoneNumber">
+                            <a href="tel:714 235 3002">
+                            714 235 3002</a>
+                        </h1>
+                        
+                        <p>I'm available <span className="italic-text">Monday thru Friday, 9am – 5pm.</span> I can be available evenings and Saturdays upon special requests. Mention this website and receive <span className="bold-text">10% off your first visit!</span></p>
 
                         <p>Clicking on either map will direct you to Google Maps.</p>
 

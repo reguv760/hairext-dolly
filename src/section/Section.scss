@@ -48,7 +48,8 @@ section {
         color: $dollyMagenta;
       }
 
-      & h1.phoneNumber {
+      & h1.phoneNumber,
+      & h1.email {
         display: block;
         font-weight: bold;
         font-size: 2rem;
