@@ -1,12 +1,14 @@
 import React from 'react';
 
+const currentYear = new Date();
 class FooterSection extends React.Component
 {
     render()
     {
         return(
             <footer>
-                <h4>Some footer</h4>
+                <p>&copy; { currentYear.getFullYear() } Hair Extensions by Dolly<br/>
+                Site Designed by <a href="http://reguv760.github.io/portfolio" target="_blank" rel="noopener noreferrer">Reginald Galang</a></p>
             </footer>
         )
     }

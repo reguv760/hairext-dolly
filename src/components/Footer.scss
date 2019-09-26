@@ -3,6 +3,12 @@ footer {
   justify-content: center;
   margin: 1rem 0;
   padding: 0;
-  background-color: $off-white;
   border-radius: 0.25rem;
+  text-align: center;
+  font-size: 0.8rem;
+
+  & a {
+    text-decoration: none;
+    color: $dollyMagenta;
+  }
 }
