@@ -11,9 +11,23 @@ section {
     padding: 1rem;
     margin: 0;
 
+    & .bold-text {
+      font-weight: bold;
+    }
+
+    & a {
+      text-decoration: none;
+      color: $dollyMagenta;
+    }
+
+    & a:hover {
+      color: $dollyMagenta-light;
+    }
+
     &__text {
       border-radius: 0.25rem;
       font-size: 1rem;
+      font-weight: normal;
       display: flex;
       flex-flow: column nowrap;
       justify-content: flex-end;
@@ -32,8 +46,18 @@ section {
         padding: 0;
       }
 
+      & h3 {
+        color: $dollyMagenta;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 0;
+        margin: 1rem 0 0;
+      }
+
       & p {
         letter-spacing: 0.03em;
+        margin: 1rem 0;
+        padding: 0;
       }
 
       /* content for home */
@@ -41,6 +65,7 @@ section {
         & .col {
           margin: 0;
           padding: 0;
+
           & p {
             width: 100%;
             text-align: right;

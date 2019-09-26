@@ -10,9 +10,28 @@ const ServicesSection = () =>
             <Container className="section-container">
                     <div className="section-container__text">
                         <h1>Services</h1>
-                        <p>Excepteur enim et magna reprehenderit. Qui exercitation fugiat consectetur officia qui culpa dolor non laborum tempor mollit. Proident magna minim dolor amet. Lorem veniam consectetur elit incididunt fugiat aliqua aute ex dolore dolore nulla culpa. Irure voluptate aute et commodo anim officia enim ad fugiat irure nostrud tempor do dolor. Minim ex qui enim voluptate Lorem nulla occaecat do.</p>
+                        <p>I now have 3 options for the person with fine thinning hair. A microline stays in for up to 4 weeks and can be worn while swimming, sweating or showering.</p>                        
 
-                        <p>Occaecat mollit adipisicing ea eu fugiat nulla veniam voluptate nisi velit voluptate. Reprehenderit aliquip est consectetur eiusmod ut id. Dolore eu id ut esse irure laboris velit ex fugiat occaecat Lorem sunt esse. Ut exercitation laboris mollit cupidatat ea aliquip. Sunt anim consequat ullamco reprehenderit eu aliqua laborum nulla adipisicing velit aliqua nostrud aliqua.</p>
+                        <p>I also offer a highline or top-hair to take care of any hairloss issues. A top-up is done after 4 weeks to tighten up your hairpiece. You can combine a microline with extensions to make your hair beautiful, thick and luxurious for the ultimate combination!</p>
+
+                        <p>I also offer Quickies, our new tape-in extensions that stay in for 6-8 weeks. They are the same beautiful hair but a little more affordable for the person who would like a non permanent extension.</p>
+
+                        <h2>FAQ</h2>    
+                        <h3>What color options do I have?  </h3>  
+                        <p>The possibilities are endless. You can even have glow in the dark strands, pearls and crystal strands featuring swarvoski crystals.</p>
+
+                        <h3>How long does it take? </h3>   
+                        <p>On average, it takes about 3 hours to get it done. Time varies depending on the length of hair, etc.</p>
+
+                        <h3>Will it damage my current hair?</h3>    
+                        <p>No, I don't use glue, chemicals or any of the older methods. With Hairdreams hair extensions, there will be no damage in the application or removal of the hair extensions. Even with the hair extensions, with proper care, your natural hair will continue to grow free of damage.
+                        </p>
+                        <h3>How much does it cost?</h3> 
+                        <p>The price depends on what length you are looking for and what style and/or thicker or fullness you are going for.</p>
+
+                        <h3>How long does it last?</h3>
+                        <p>My hair extensions stay in for up to 8 months and the hair extensions are reusable.</p>
+
                     </div>
                     
                 </Container>

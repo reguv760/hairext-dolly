@@ -11,9 +11,15 @@ const AboutSection = () =>
                     <div className="section-container__text">
                         <h1>About</h1>
 
-                        <p>Laborum nisi cupidatat duis eu aliquip esse ad dolore amet laboris fugiat excepteur eiusmod. Nulla do enim amet tempor cupidatat sint labore excepteur cupidatat voluptate enim elit laborum ex. Fugiat incididunt consectetur ut sunt labore. Ut nostrud eu deserunt do sit dolor duis officia commodo ipsum amet consequat et adipisicing. Velit labore elit ipsum in officia cupidatat laboris ex anim. Tempor non occaecat et labore ullamco dolore non commodo duis adipisicing in anim. Anim sunt irure reprehenderit nisi id non mollit et amet et.
+                        <p>I have been in the hair styling business for over 20 years and have been using Hairdreams for over 10 years. Over the years, I have been trained and educated in several different areas of hair extensions. After attending several conferences and trade shows, I have found the highest quality hair extensions on the market to be <span className="bold-text"><a href="http://Hairdreamsusa.com" target="_blank" rel="noopener noreferrer">Hairdreams</a>.</span> I strive to meet the needs of my clients and continue to attend trade shows and conferences so that I can continue to give my clients what they deserve: only the best.</p>
 
-Ut pariatur id enim id non. Officia adipisicing elit do aute aliqua. Sunt sit duis ex laboris tempor laboris tempor enim. Reprehenderit ipsum mollit ullamco reprehenderit et veniam fugiat nulla reprehenderit aliqua sint. Amet excepteur aute ea eiusmod aliqua quis Lorem sunt.</p>
+                        <p>I believe hair extensions are a true art. Imagine having the hair of your dreams that will not tangle, matt or turn into dreads. I will educate you on home care and coming in for tidy cuts. I will show you the difference in 5-star and 7-star hair. <span className="bold-text"><a href="http://Hairdreamsusa.com" target="_blank" rel="noopener noreferrer">Hairdreams</a></span> is the only hair extension that offers the best European hair.</p>
+
+                        <p>Trust me, the possibilities are endless. Whether you want to add length, volume, color or just upgrade a hairstyle, I can make your dream hair come true!</p>
+
+                        
+                        <p>I also serve two locations: Buena Park, CA and Mission Viejo, CA.</p>
+
                     </div>
                     
                 </Container>

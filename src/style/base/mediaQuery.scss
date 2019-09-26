@@ -149,14 +149,15 @@
 
       &__text {
         & h1,
-        & h2 {
+        & h2,
+        & h3 {
           text-align: right;
         }
 
         & p {
           align-self: flex-end;
           text-align: right;
-          width: 60%;
+          width: 50%;
         }
 
         & .home-locations {

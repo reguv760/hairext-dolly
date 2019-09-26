@@ -3,7 +3,10 @@ import styled from 'styled-components'
 import Container from '@material-ui/core/Container';
 import { configureAnchors } from 'react-scrollable-anchor'
 import ReactGA from 'react-ga';
-//import { Helmet } from 'react-helmet';
+
+
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
+import Typography from '@material-ui/core/Typography'
 
 
 //components:::
@@ -16,6 +19,12 @@ import ContactSection from './section/Contact';
 
 import FooterSection from './components/Footer';
 import Background from './components/Background';
+
+const theme = createMuiTheme({
+    typography: {
+        fontFamily: '"Open Sans", Arial, Helvetica, sans-serif',
+    },
+})
 
 configureAnchors({ offset: -100, scrollDuration: 750})
 ReactGA.initialize('UA-6371690-3');
@@ -34,30 +43,37 @@ class App extends React.Component
     render()
     {
         return (
-            <Container >
-                {/* <Helmet>
-                    <meta name="Keywords" content="Hair Extensions, thickening, lengthening, microline, dream hair, Quickies, human hair, nylon bond or bonded, Buena Park, Hair Dreams, Southern California, Orange County, Los Angeles, Anaheim, La Palma, Cerritos, Cypress, Long Beach, Salon" />
-  
-                    <meta name="Description" content="Styling hair out of my salon located in Buena Park, CA. I offer a new and different type of hair extension directly from Europe. Hairdreams Hair Extensions are the diamond among all other hair extensions." />
+            <MuiThemeProvider theme={theme} >
+                 <Typography>
+                    <Container style={{ backgroundColor: "#fff" }}>
+                        {/* <Helmet>
+                            <meta name="Keywords" content="Hair Extensions, thickening, lengthening, microline, dream hair, Quickies, human hair, nylon bond or bonded, Buena Park, Hair Dreams, Southern California, Orange County, Los Angeles, Anaheim, La Palma, Cerritos, Cypress, Long Beach, Salon" />
+        
+                            <meta name="Description" content="Styling hair out of my salon located in Buena Park, CA. I offer a new and different type of hair extension directly from Europe. Hairdreams Hair Extensions are the diamond among all other hair extensions." />
 
-                    <meta name="Author" content="reguv760@gmail.com"></meta>
-                </Helmet>     */}
+                            <meta name="Author" content="reguv760@gmail.com"></meta>
+                        </Helmet>     */}
 
-                <MainContainer id="main-container">
+                        <MainContainer id="main-container">
+                        
 
-                    <Navigation/>      
+                                <Navigation/>      
 
-                    <HomeSection />
-                    <ServicesSection />
-                    <AboutSection />   
-                    <GallerySection />               
-                    <ContactSection /> 
+                                <HomeSection />
+                                <ServicesSection />
+                                <AboutSection />   
+                                <GallerySection />               
+                                <ContactSection /> 
 
-                    <FooterSection />
-                </MainContainer>
+                                <FooterSection />
+                        </MainContainer>
 
-                <Background />
-            </Container>
+                        <Background />
+                    </Container>
+                
+                </Typography>
+
+            </MuiThemeProvider>
         )
     }
 }
