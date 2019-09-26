@@ -16,6 +16,14 @@
   }
   #image-background {
     display: flex;
+
+    .col.image {
+      width: 75%;
+    }
+
+    .col.right {
+      width: 25%;
+    }
   }
 
   section {
@@ -65,6 +73,14 @@
 
   #image-background {
     display: flex;
+
+    .col.image {
+      width: 50%;
+    }
+
+    .col.right {
+      width: 50%;
+    }
   }
 
   section {
