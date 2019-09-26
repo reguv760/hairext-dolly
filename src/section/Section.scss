@@ -1,5 +1,6 @@
 section {
   display: block;
+  min-height: calc(100vh - 7rem);
   height: 100%; /* this ensures section stretches based on content */
   margin: 1.4rem 0;
   padding: 0;
