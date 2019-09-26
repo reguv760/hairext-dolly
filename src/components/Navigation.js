@@ -3,13 +3,16 @@ import React from 'react';
 import MobileMenu from './MobileMenu';
 import AppBar from '@material-ui/core/AppBar';
 
+import dollyLogo from "./../img/dollyLogo.svg";
+
 
 class Navigation extends React.Component
 {
     render()
     {
         return(
-            <AppBar 
+            <AppBar
+                className="navbar"
                 position="fixed" 
                 style={{
                     background: "linear-gradient(90deg, rgba(228, 80, 149, 1) 0%, rgba(0, 0, 0, 1) 70%",
@@ -23,7 +26,7 @@ class Navigation extends React.Component
                 }}>
 
                 <div className="col logo">
-                    Logo                   
+                    <img className="logo" src={dollyLogo} alt="Hair Extensions by Dolly logo" />
                 </div>
                 <nav className="col">
                     <MobileMenu />
