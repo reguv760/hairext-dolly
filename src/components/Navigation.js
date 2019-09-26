@@ -5,7 +5,6 @@ import AppBar from '@material-ui/core/AppBar';
 
 import dollyLogo from "./../img/dollyLogo.svg";
 
-
 class Navigation extends React.Component
 {
     render()
@@ -31,6 +30,7 @@ class Navigation extends React.Component
                     </a>
                 </div>
                 <nav className="col">
+                    
                     <MobileMenu />
                     <ul className="wide-menu">
                         <li><a href="#home">Home</a></li>
@@ -38,6 +38,7 @@ class Navigation extends React.Component
                         <li><a href="#about">About</a></li>
                         <li><a href="#gallery">Gallery</a></li>
                         <li><a href="#contact">Contact</a></li>
+                                
                     </ul>
                 </nav>
             </AppBar>
