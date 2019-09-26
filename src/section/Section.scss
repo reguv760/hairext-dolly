@@ -29,6 +29,7 @@ section {
       color: $dollyMagenta-light;
     }
 
+    /** style for section goes here */
     &__text {
       border-radius: 0.25rem;
       font-size: 1rem;
@@ -37,6 +38,7 @@ section {
       flex-flow: column nowrap;
       justify-content: flex-end;
       width: 100%;
+      position: relative;
 
       & h1 {
         display: block;
@@ -44,6 +46,20 @@ section {
         font-size: 1.6rem;
         letter-spacing: 0.05em;
         color: $dollyMagenta;
+      }
+
+      & h1.phoneNumber {
+        display: block;
+        font-weight: bold;
+        font-size: 2rem;
+        letter-spacing: 0.04rem;
+        color: $dollyMagenta;
+        margin: 0;
+        padding: 0;
+
+        & a {
+          text-decoration: none;
+        }
       }
 
       & h2 {
@@ -81,9 +97,27 @@ section {
 
       /* content for home */
       & .home-locations {
+        position: relative;
+        top: 4rem;
         & .col {
           margin: 0;
           padding: 0;
+
+          & p {
+            width: 100%;
+            text-align: right;
+          }
+        }
+      }
+
+      /* content for about */
+
+      & .about-cbd {
+        width: 100%;
+        & .col {
+          margin: 0;
+          padding: 0;
+          align-self: flex-end;
 
           & p {
             width: 100%;
