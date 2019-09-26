@@ -24,10 +24,10 @@ class Background extends React.Component
     {
         return(
             <div id="image-background" style={{background:"linear-gradient(90deg, rgba(228,80,149,1) 0%, rgba(0,0,0,1) 70%)"}}>
-                <div className="col" >
+                <div className="col image" >
                     <img src={this.state.currentImage} alt="Hair Extensions by Dolly: Model" />
                 </div>
-                <div className="col" >
+                <div className="col right" >
                 </div>
             </div>
         )

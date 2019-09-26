@@ -8,7 +8,7 @@ const HomeSection = () =>
 {
     return (
         
-        <ScrollableAnchor id={'Home'}>
+        <ScrollableAnchor id={'home'}>
             <section>
                 <Container className="section-container">
                     <div className="section-container__text">

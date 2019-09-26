@@ -5,7 +5,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 const ServicesSection = () =>
 {
     return (
-        <ScrollableAnchor id={'Services'}>
+        <ScrollableAnchor id={'services'}>
             <section>
             <Container className="section-container">
                     <div className="section-container__text">

@@ -44,11 +44,11 @@ class MobileMenu extends React.Component
                     open={open}
                     onClose={this.handleClose}
                 >
-                    <MenuItem onClick={this.handleClose}><LinkStyle href="#Home">Home</LinkStyle></MenuItem>
-                    <MenuItem onClick={this.handleClose}><LinkStyle href="#Services">Services</LinkStyle></MenuItem>
-                    <MenuItem onClick={this.handleClose}><LinkStyle href="#About">About</LinkStyle></MenuItem>
-                    <MenuItem onClick={this.handleClose}><LinkStyle href="#Gallery">Gallery</LinkStyle></MenuItem>
-                    <MenuItem onClick={this.handleClose}><LinkStyle href="#Contact">Contact</LinkStyle></MenuItem>
+                    <MenuItem onClick={this.handleClose}><LinkStyle href="#home">Home</LinkStyle></MenuItem>
+                    <MenuItem onClick={this.handleClose}><LinkStyle href="#services">Services</LinkStyle></MenuItem>
+                    <MenuItem onClick={this.handleClose}><LinkStyle href="#about">About</LinkStyle></MenuItem>
+                    <MenuItem onClick={this.handleClose}><LinkStyle href="#gallery">Gallery</LinkStyle></MenuItem>
+                    <MenuItem onClick={this.handleClose}><LinkStyle href="#contact">Contact</LinkStyle></MenuItem>
                 </Menu>
             </div>
         )

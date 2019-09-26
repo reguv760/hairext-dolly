@@ -15,11 +15,12 @@
     display: flex;
   }
   #image-background {
-    display: none;
+    display: flex;
   }
 
   section {
     height: calc(100vh -7rem);
+    background-color: rgba(255, 255, 255, 0.85);
   }
 
   footer {
@@ -66,17 +67,21 @@
     display: flex;
   }
 
-  .section-container {
-    justify-content: flex-end;
+  section {
+    background-color: transparent;
 
-    &__text {
-      & h1 {
-        text-align: right;
-      }
-      & p {
-        align-self: flex-end;
-        text-align: right;
-        width: 60%;
+    & .section-container {
+      justify-content: flex-end;
+
+      &__text {
+        & h1 {
+          text-align: right;
+        }
+        & p {
+          align-self: flex-end;
+          text-align: right;
+          width: 60%;
+        }
       }
     }
   }

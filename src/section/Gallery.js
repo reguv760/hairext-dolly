@@ -7,7 +7,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 const GallerySection = () =>
 {
     return (
-        <ScrollableAnchor id={'Gallery'}>
+        <ScrollableAnchor id={'gallery'}>
             <section>
             <Container className="section-container" >
                     <div className="section-container__text">
