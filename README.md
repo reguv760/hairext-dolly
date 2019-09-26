@@ -39,6 +39,12 @@ This is a client project that uses the following libraries:
 
 `npm install --save react-ga`
 
+7. react-helmet
+
+- Add meta tags to public/index.html
+
+`npm install --save react-helmet`
+
 ## Available Scripts
 
 In the project directory, you can run:

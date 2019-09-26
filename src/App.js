@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Container from '@material-ui/core/Container';
 import { configureAnchors } from 'react-scrollable-anchor'
 import ReactGA from 'react-ga';
+import { Helmet } from 'react-helmet';
 
 
 //components:::
@@ -33,7 +34,15 @@ class App extends React.Component
     render()
     {
         return (
-            <Container style={{ backgroundColor: "#fcfcfc" }}>                
+            <Container style={{ backgroundColor: "#fcfcfc" }}>
+                <Helmet>
+                    <meta name="Keywords" content="Hair Extensions, thickening, lengthening, microline, dream hair, Quickies, human hair, nylon bond or bonded, Buena Park, Hair Dreams, Southern California, Orange County, Los Angeles, Anaheim, La Palma, Cerritos, Cypress, Long Beach, Salon" />
+  
+                    <meta name="Description" content="Styling hair out of my salon located in Buena Park, CA. I offer a new and different type of hair extension directly from Europe. Hairdreams Hair Extensions are the diamond among all other hair extensions." />
+
+                    <meta name="Author" content="reguv760@gmail.com"></meta>
+                </Helmet>    
+
                 <MainContainer id="main-container">
 
                     <Navigation/>      

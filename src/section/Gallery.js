@@ -2,7 +2,7 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import ScrollableAnchor from 'react-scrollable-anchor'
 
-import BeforeAfter from './../components/BeforeAfter';
+//import BeforeAfter from './../components/BeforeAfter';
 
 const GallerySection = () =>
 {
