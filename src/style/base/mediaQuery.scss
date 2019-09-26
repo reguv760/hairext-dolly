@@ -20,8 +20,6 @@
 
   .section-container {
     &__text {
-      width: 100%;
-
       & h1 {
         text-align: center;
       }
@@ -41,8 +39,6 @@
 @media (min-width: 600px) {
   .section-container {
     &__text {
-      width: 100%;
-
       & p {
         width: 100%;
       }
@@ -56,10 +52,9 @@
   }
   .section-container {
     &__text {
-      width: 100%;
-
       & p {
         width: 100%;
+        align-self: flex-end;
       }
     }
   }
@@ -89,7 +84,7 @@
       & p {
         align-self: flex-end;
         text-align: right;
-        width: 70%;
+        width: 60%;
       }
     }
   }
@@ -107,9 +102,8 @@
   }
   .section-container {
     &__text {
-      width: 80%;
       & p {
-        width: 100%;
+        width: 70%;
       }
     }
   }
