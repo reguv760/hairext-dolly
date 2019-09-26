@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import Container from '@material-ui/core/Container';
 import { configureAnchors } from 'react-scrollable-anchor'
+import Helmet from 'react-helmet';
 import ReactGA from 'react-ga';
 
 
@@ -46,13 +47,13 @@ class App extends React.Component
             <MuiThemeProvider theme={theme} >
                  <Typography>
                     <Container style={{ backgroundColor: "#fff" }}>
-                        {/* <Helmet>
-                            <meta name="Keywords" content="Hair Extensions, thickening, lengthening, microline, dream hair, Quickies, human hair, nylon bond or bonded, Buena Park, Hair Dreams, Southern California, Orange County, Los Angeles, Anaheim, La Palma, Cerritos, Cypress, Long Beach, Salon" />
+                        <Helmet>
+                            <meta name="Keywords" content="Hair Extensions, thickening, lengthening, microline, dream hair, Quickies, human hair, nylon bond or bonded, Buena Park, Hair Dreams, Southern California, Orange County, Los Angeles, Anaheim, La Palma, Cerritos, Cypress, Long Beach, Salon, CBD" />
         
                             <meta name="Description" content="Styling hair out of my salon located in Buena Park, CA. I offer a new and different type of hair extension directly from Europe. Hairdreams Hair Extensions are the diamond among all other hair extensions." />
 
                             <meta name="Author" content="reguv760@gmail.com"></meta>
-                        </Helmet>     */}
+                        </Helmet>    
 
                         <MainContainer id="main-container">
                         
