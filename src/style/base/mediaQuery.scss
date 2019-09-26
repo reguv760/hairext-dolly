@@ -46,6 +46,11 @@
 
     & .section-container {
       &__text {
+        & h1.phoneNumber,
+        & h1.email {
+          font-size: 1.6rem;
+        }
+
         & p {
           font-size: 1rem;
           line-height: 1.5rem;
@@ -126,6 +131,11 @@
   section {
     & .section-container {
       &__text {
+        & h1.phoneNumber,
+        & h1.email {
+          font-size: 2rem;
+        }
+
         & p {
           font-size: 1.2rem;
           line-height: 1.8rem;
