@@ -24,7 +24,7 @@ class BeforeAfterImage extends React.Component
 
         return(
             <div className="beforeAfter-image">
-                <img src={imagesPath[imageName]} onClick={this.toggleImage}  alt="Hair Extensions Model: Before and After" />
+                <img src={imagesPath[imageName]} onClick={this.toggleImage}  alt={this.props.text} />
                 
             </div>
         )
