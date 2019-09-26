@@ -1,20 +1,24 @@
 .beforeAfter {
-  display: block;
+  display: flex;
+  justify-content: flex-end;
   margin: 0 auto;
-  background-color: $dollyMagenta;
   border-radius: 0.25rem;
+  width: 100%;
 
   &-container {
+    border-radius: 0.25rem;
+    border: 0.2rem solid $dollyMagenta;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     list-style-type: none;
     padding: 1rem;
+    max-width: 60rem;
 
     & li {
       width: 250px;
       height: 250px;
-      margin: 0.5rem;
+      margin: 1rem;
       padding: 0;
       background-color: #333;
     }

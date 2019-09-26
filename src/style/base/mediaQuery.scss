@@ -76,6 +76,15 @@
             }
           }
         }
+
+        & .map-locations {
+          justify-content: center;
+          flex-flow: column nowrap;
+
+          & .col {
+            flex-flow: column wrap;
+          }
+        }
       }
     }
   }
@@ -122,6 +131,11 @@
           line-height: 1.8rem;
           width: 100%;
           align-self: flex-end;
+        }
+
+        & .map-locations {
+          justify-content: flex-end;
+          flex-flow: row nowrap;
         }
       }
     }

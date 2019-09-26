@@ -110,6 +110,26 @@ section {
         }
       }
 
+      /* content for Contanct */
+
+      & .map-locations {
+        width: 100%;
+        display: flex;
+
+        & .col {
+          display: flex;
+          flex-flow: column nowrap;
+          margin: 1rem;
+
+          & h2 {
+            text-align: center;
+          }
+          & iframe {
+            align-self: center;
+          }
+        }
+      }
+
       /* content for about */
       & .about-me {
         width: 100%;
