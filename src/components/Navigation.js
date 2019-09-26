@@ -26,7 +26,9 @@ class Navigation extends React.Component
                 }}>
 
                 <div className="col logo">
-                    <img className="logo" src={dollyLogo} alt="Hair Extensions by Dolly logo" />
+                    <a href="/">
+                        <img className="logo" src={dollyLogo} alt="Hair Extensions by Dolly logo" />
+                    </a>
                 </div>
                 <nav className="col">
                     <MobileMenu />

@@ -7,9 +7,18 @@
       max-height: 5rem;
       width: 100%;
 
+      & a {
+        text-decoration: none;
+      }
+
+      & a:hover {
+        opacity: 0.8;
+      }
+
       & .logo {
         width: 100%;
         height: auto;
+        margin: 0 1rem;
       }
     }
   }
