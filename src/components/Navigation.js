@@ -12,7 +12,7 @@ class Navigation extends React.Component
             <AppBar 
                 position="fixed" 
                 style={{
-                    backgroundColor: '#e45095', 
+                    background: "linear-gradient(90deg, rgba(228, 80, 149, 1) 0%, rgba(0, 0, 0, 1) 70%",
                     height:'5rem', 
                     margin: '0', 
                     padding:"0", 
@@ -25,7 +25,7 @@ class Navigation extends React.Component
                 <div className="col logo">
                     Logo                   
                 </div>
-                <div className="col">
+                <nav className="col">
                     <MobileMenu />
                     <ul className="wide-menu">
                         <li><a href="#Home">Home</a></li>
@@ -34,7 +34,7 @@ class Navigation extends React.Component
                         <li><a href="#Gallery">Gallery</a></li>
                         <li><a href="#Contact">Contact</a></li>
                     </ul>
-                </div>
+                </nav>
             </AppBar>
         )
     }

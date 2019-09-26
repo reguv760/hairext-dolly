@@ -8,7 +8,7 @@ import styled from "styled-components"
 
 const LinkStyle = styled.a`
     text-decoration:none;
-    color: #ff00ff;
+    color: #e45095;
 `
 
 class MobileMenu extends React.Component

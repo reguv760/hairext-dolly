@@ -8,6 +8,17 @@
   flex-flow: row nowrap;
 
   & .col {
+    position: relative;
     width: 50%;
+    background-color: $off-white;
+
+    & img {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
