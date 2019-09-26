@@ -18,16 +18,25 @@
     display: flex;
 
     .col.image {
-      width: 75%;
+      width: 80%;
     }
 
     .col.right {
-      width: 25%;
+      width: 20%;
     }
   }
 
   section {
     background-color: rgba(255, 255, 255, 0.85);
+
+    & .section-container {
+      &__text {
+        & p {
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+      }
+    }
   }
 
   footer {
@@ -50,11 +59,16 @@
   #main-container {
     right: 0;
   }
-  .section-container {
-    &__text {
-      & p {
-        width: 100%;
-        align-self: flex-end;
+
+  section {
+    & .section-container {
+      &__text {
+        & p {
+          font-size: 1.2rem;
+          line-height: 1.8rem;
+          width: 100%;
+          align-self: flex-end;
+        }
       }
     }
   }
