@@ -10,6 +10,8 @@ const LinkStyle = styled.a`
     text-decoration:none;
     color: #e45095;
     letter-spacing: 0.1em;
+    font-weight:bold;
+    margin: 1rem;
 `
 
 class MobileMenu extends React.Component
