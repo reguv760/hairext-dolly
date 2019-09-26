@@ -111,13 +111,49 @@ section {
       }
 
       /* content for about */
-
-      & .about-cbd {
+      & .about-me {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+
+        & .col {
+          width: 50%;
+          max-width: 60rem;
+          margin: 1rem;
+
+          & img {
+            border-radius: 0.25rem;
+            border: 0.2rem solid $dollyMagenta;
+            padding: 0;
+            margin: 0;
+            object-fit: contain;
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+      & .about-cbd {
+        margin-top: 4rem;
+        width: 100%;
+
         & .col {
           margin: 0;
           padding: 0;
           align-self: flex-end;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: flex-end;
+          & img {
+            border-radius: 0.25rem;
+            border: 0.2rem solid $dollyMagenta;
+            padding: 0;
+            margin: 0;
+            object-fit: contain;
+            max-width: 40rem;
+            width: 100%;
+            height: auto;
+          }
 
           & p {
             width: 100%;

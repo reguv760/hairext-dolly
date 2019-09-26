@@ -12,10 +12,10 @@
       width: 15%;
 
       &.logo {
-        width: 85%;
+        width: 100%;
 
         & .logo {
-          width: 100%;
+          width: 90%;
         }
       }
     }
@@ -60,6 +60,14 @@
           }
         }
 
+        & .about-me {
+          flex-flow: row wrap;
+
+          & .col {
+            width: 100%;
+          }
+        }
+
         & .about-cbd {
           & .col {
             width: 100%;
@@ -84,7 +92,11 @@
       width: 20%;
 
       &.logo {
-        width: 80%;
+        width: 100%;
+
+        & .logo {
+          width: 60%;
+        }
       }
     }
   }
@@ -126,7 +138,7 @@
         width: 50%;
 
         & .logo {
-          width: 75%;
+          width: 50%;
         }
       }
     }
@@ -176,6 +188,10 @@
               text-align: right;
             }
           }
+        }
+
+        & .about-me {
+          flex-flow: row nowrap;
         }
 
         & .about-cbd {
