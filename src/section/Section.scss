@@ -146,10 +146,11 @@ section {
           padding: 0;
 
           & img {
-            border-radius: 0.25rem;
-            border: 0.2rem solid $dollyMagenta;
-            padding: 0;
-            margin: 0;
+            display: block;
+            border-radius: 0.5rem;
+            border: 0.1rem solid $dollyMagenta;
+            padding: 0px;
+            margin: 0px;
             object-fit: contain;
             width: 100%;
             height: auto;
@@ -167,9 +168,11 @@ section {
           display: flex;
           flex-flow: row wrap;
           justify-content: flex-end;
+
           & img {
-            border-radius: 0.25rem;
-            border: 0.2rem solid $dollyMagenta;
+            display: block;
+            border-radius: 0.5rem;
+            border: 0.1rem solid $dollyMagenta;
             padding: 0;
             margin: 0;
             object-fit: contain;
