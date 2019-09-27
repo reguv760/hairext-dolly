@@ -32,8 +32,8 @@ class BeforeAfterImage extends React.Component
                     src={imagesPath[imageName]} 
                     onClick={this.toggleImage}  
                     alt={this.props.altText} 
-                    style={{alignSelf:"center", backgroundColor: "#fff"}} 
-                    loader={<CircularProgress color="primary"/>}
+                    style={{alignSelf:"center"}} 
+                    loader={<CircularProgress color="secondary"/>}
                 />
                 
             </div>
