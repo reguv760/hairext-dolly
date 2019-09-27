@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This site has been audited using LightHouse through Chrome DevTools  
+![Google audit](./hairExt-audit-092719.jpg "Chrome Audit")
+
 This is a client project that uses the following libraries:
 
 1. node-sass
