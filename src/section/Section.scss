@@ -42,6 +42,7 @@ section {
       & h1 {
         display: block;
         font-weight: bold;
+        text-transform: uppercase;
         font-size: 1.6rem;
         letter-spacing: 0.05em;
         color: $dollyMagenta;
@@ -55,6 +56,7 @@ section {
         color: $dollyMagenta;
         margin: 0;
         padding: 0;
+        text-transform: none;
 
         & a {
           text-decoration: none;

@@ -8,6 +8,7 @@ import styled from "styled-components"
 
 const LinkStyle = styled.a`
     text-decoration:none;
+    text-transform: uppercase;
     color: #e45095;
     letter-spacing: 0.1em;
     font-weight:bold;

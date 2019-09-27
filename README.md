@@ -29,6 +29,7 @@ This is a client project that uses the following libraries:
 5 material-ui: core, icons and styles
 
 - style provided by Google
+- CircularProgress uses @material-ui/styles in Gallery
 
 `npm install @material-ui/core`
 `npm install @material-ui/icons`
