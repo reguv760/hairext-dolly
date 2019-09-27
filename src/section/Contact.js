@@ -12,7 +12,7 @@ const ContactSection = () =>
                         <h1>Contact</h1>
 
                         <h1 className="email">
-                            <a href="mailto:hcoolhouse56@yahoo.com">hcoolhouse56@yahoo.com</a>
+                            <a href="mailto:hcoolhouse56@yahoo.com?subject=Hair%20Extensions%20by%20Dolly%20Website">hcoolhouse56@yahoo.com</a>
                         </h1>
 
                         <h1 className="phoneNumber">
