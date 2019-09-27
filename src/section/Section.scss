@@ -1,7 +1,7 @@
 section {
   display: block;
   min-height: calc(100vh - 7rem);
-  height: 100%; /* this ensures section stretches based on content */
+  height: 100%; /* this ensures section height stretches based on content */
   margin: 1.4rem 0;
   padding: 0;
   border-radius: 0.25rem;
@@ -29,7 +29,7 @@ section {
       color: $dollyMagenta-light;
     }
 
-    /** style for section goes here */
+    /** style for global section goes here */
     &__text {
       border-radius: 0.25rem;
       font-size: 1rem;
@@ -39,6 +39,7 @@ section {
       justify-content: flex-end;
       width: 100%;
 
+      /** global headers **/
       & h1 {
         display: block;
         font-weight: bold;
@@ -46,21 +47,6 @@ section {
         font-size: 1.6rem;
         letter-spacing: 0.05em;
         color: $dollyMagenta;
-      }
-
-      & h1.phoneNumber,
-      & h1.email {
-        display: block;
-        font-weight: bold;
-        letter-spacing: 0.04rem;
-        color: $dollyMagenta;
-        margin: 1rem 0;
-        padding: 0;
-        text-transform: none;
-
-        & a {
-          text-decoration: none;
-        }
       }
 
       & h2 {
@@ -89,6 +75,23 @@ section {
         padding: 0;
       }
 
+      /** used by Home + Contact sections **/
+      & h1.phoneNumber,
+      & h1.email {
+        display: block;
+        font-weight: bold;
+        letter-spacing: 0.04rem;
+        color: $dollyMagenta;
+        margin: 1rem 0;
+        padding: 0;
+        text-transform: none;
+
+        & a {
+          text-decoration: none;
+        }
+      }
+
+      /* global pargraph style */
       & p {
         letter-spacing: 0.03em;
         margin: 1rem 0;
@@ -96,6 +99,7 @@ section {
         line-height: 1.8rem;
       }
 
+      /*** content section ***/
       /* content for home */
       & .home-locations {
         display: block;
@@ -111,13 +115,13 @@ section {
         }
       }
 
-      /* content for Contanct */
-
+      /* content for Contact */
       & .map-locations {
         width: 100%;
         margin: 0;
         padding: 0;
         display: flex;
+        /* look in mediaQuery for flex-flow + justify content */
 
         & .col {
           display: flex;
@@ -125,6 +129,7 @@ section {
           margin: 1rem;
 
           & h2 {
+            margin: 0.5rem 0;
             text-align: center;
           }
           & iframe {
@@ -133,7 +138,7 @@ section {
         }
       }
 
-      /* content for about */
+      /* content for about section*/
       & .about-me {
         width: 100%;
         display: flex;
@@ -158,6 +163,7 @@ section {
           }
         }
       }
+
       & .about-cbd {
         margin-top: 4rem;
         width: 100%;
