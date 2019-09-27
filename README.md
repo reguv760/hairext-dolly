@@ -29,7 +29,7 @@ This is a client project that uses the following libraries:
 
 `npm install -s react-scrollable-anchor`
 
-5 material-ui: core, icons and styles
+5. material-ui: core, icons and styles
 
 - style provided by Google
 - CircularProgress uses @material-ui/styles in Gallery
@@ -37,13 +37,7 @@ This is a client project that uses the following libraries:
 `npm install @material-ui/core`
 `npm install @material-ui/icons`
 
-6. react-ga
-
-- Add Google Analytics to React project
-
-`npm install --save react-ga`
-
-7. react-helmet
+6. react-helmet
 
 - Add meta tags to public/index.html
 

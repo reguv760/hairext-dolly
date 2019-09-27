@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import Container from '@material-ui/core/Container';
 import { configureAnchors } from 'react-scrollable-anchor'
 import Helmet from 'react-helmet';
-import ReactGA from 'react-ga';
 
 //section components:::
 import Navigation from './components/Navigation';
@@ -30,10 +29,9 @@ class App extends React.Component
 {
     componentDidMount()
     {
-        configureAnchors({ offset: -100, scrollDuration: 750})
-        ReactGA.initialize('UA-6371690-3');
-        
+        configureAnchors({ offset: -100, scrollDuration: 750});        
     }
+
     render()
     {
         return (
