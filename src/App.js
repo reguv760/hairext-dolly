@@ -16,9 +16,6 @@ import ContactSection from './section/Contact';
 import FooterSection from './components/Footer';
 import Background from './components/Background';
 
-configureAnchors({ offset: -100, scrollDuration: 750})
-ReactGA.initialize('UA-6371690-3');
-
 const MainContainer = styled.div`  
     font-family: 'Open Sans', Arial, sans-serif;
     top: 4.5rem;
@@ -31,6 +28,12 @@ const MainContainer = styled.div`
 `
 class App extends React.Component 
 {
+    componentDidMount()
+    {
+        configureAnchors({ offset: -100, scrollDuration: 750})
+        ReactGA.initialize('UA-6371690-3');
+        
+    }
     render()
     {
         return (
