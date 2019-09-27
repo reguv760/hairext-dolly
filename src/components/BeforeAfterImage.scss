@@ -1,8 +1,9 @@
 .beforeAfter-image {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   margin: 0;
+  background-color: $off-white;
 
   & img {
     border: 1px solid $off-gray;
