@@ -48,7 +48,7 @@
       &__text {
         & h1.phoneNumber,
         & h1.email {
-          font-size: 1.6rem;
+          font-size: 1.3rem;
         }
 
         & p {
@@ -88,6 +88,13 @@
 
           & .col {
             flex-flow: column wrap;
+          }
+        }
+
+        & .beforeAfter {
+          justify-content: flex-start;
+          &-container {
+            padding: 0;
           }
         }
       }
@@ -146,6 +153,13 @@
         & .map-locations {
           justify-content: center;
           flex-flow: row nowrap;
+        }
+
+        & .beforeAfter {
+          justify-content: flex-end;
+          &-container {
+            padding: 1rem;
+          }
         }
       }
     }

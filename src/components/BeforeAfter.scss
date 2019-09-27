@@ -1,6 +1,5 @@
 .beforeAfter {
   display: flex;
-  justify-content: flex-end;
   margin: 0 auto;
   border-radius: 0.25rem;
   width: 100%;
@@ -12,8 +11,8 @@
     flex-flow: row wrap;
     justify-content: center;
     list-style-type: none;
-    padding: 1rem;
     max-width: 60rem;
+    margin: 0;
     background-color: rgba(255, 255, 255, 0.5);
 
     & li {
