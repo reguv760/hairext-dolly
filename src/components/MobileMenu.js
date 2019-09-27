@@ -38,7 +38,7 @@ class MobileMenu extends React.Component
 
         return(
             <div className="mobileMenu" style={{justifyContent:"flex-end"}}>
-                <Button aria-controls="simple-menu" aria-haspopup="true" onClick={this.handleClick} >
+                <Button aria-label="Mobile Menu" aria-controls="simple-menu" aria-haspopup="true" onClick={this.handleClick} >
                     <MenuIcon fontSize="large" htmlColor="#fff" titleAccess="Menu"/>
                 </Button>
                 <Menu

@@ -14,7 +14,7 @@ export default function CircularIndeterminate() {
 
   return (
     <div>
-      <CircularProgress />
+      <CircularProgress style={{marginTop:"6rem", color: "#e45095" }} />
     </div>
   );
 }
