@@ -5,7 +5,7 @@ import { configureAnchors } from 'react-scrollable-anchor'
 import Helmet from 'react-helmet';
 import ReactGA from 'react-ga';
 
-//components:::
+//section components:::
 import Navigation from './components/Navigation';
 import HomeSection from './section/Home';
 import ServicesSection from './section/Services';

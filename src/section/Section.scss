@@ -54,7 +54,7 @@ section {
         font-weight: bold;
         letter-spacing: 0.04rem;
         color: $dollyMagenta;
-        margin: 0;
+        margin: 1rem 0;
         padding: 0;
         text-transform: none;
 
@@ -142,7 +142,8 @@ section {
         & .col {
           width: 50%;
           max-width: 60rem;
-          margin: 1rem;
+          margin: 0.5rem;
+          padding: 0;
 
           & img {
             border-radius: 0.25rem;
