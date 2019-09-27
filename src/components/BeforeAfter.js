@@ -49,7 +49,7 @@ class BeforeAfter extends React.Component
                 
                 before: BrunetteBefore,
                 after: BrunetteAfter,
-                text: "Brunete extensions"
+                text: "Brunette extensions"
             },
             {
                 
@@ -65,7 +65,7 @@ class BeforeAfter extends React.Component
         const ImageList = this.state.BeforeImageArray.map((image, i) =>
         {
             return (
-                <li key={"Before After Image" + i}><BeforeAfterImage before={image.before} after={image.after} text={image.text} />  </li>
+                <li key={"Before After Image" + i}><BeforeAfterImage before={image.before} after={image.after} altText={image.text} />  </li>
             )
         })
 

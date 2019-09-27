@@ -96,8 +96,8 @@ section {
 
       /* content for home */
       & .home-locations {
-        position: relative;
-        top: 4rem;
+        display: block;
+        margin-top: 2rem;
         & .col {
           margin: 0;
           padding: 0;
@@ -113,7 +113,6 @@ section {
 
       & .map-locations {
         width: 100%;
-        display: flex;
         margin: 0;
         padding: 0;
 

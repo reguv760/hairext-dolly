@@ -24,7 +24,7 @@ class BeforeAfterImage extends React.Component
 
         return(
             <div className="beforeAfter-image">
-                <img src={imagesPath[imageName]} onClick={this.toggleImage}  alt={this.props.text} />
+                <img src={imagesPath[imageName]} onClick={this.toggleImage}  alt={this.props.altText} />
                 
             </div>
         )
