@@ -21,6 +21,8 @@ import RedHairAfter from './../img/beforeAfter/RedHairAfter.jpg';
 
 class BeforeAfter extends React.Component 
 {
+
+    //define BeforeImageArray
     state = {
         BeforeImageArray: [
             {
@@ -62,10 +64,16 @@ class BeforeAfter extends React.Component
 
     render()
     {
+        //create map function THEN store as a const
         const ImageList = this.state.BeforeImageArray.map((image, i) =>
         {
             return (
-                <li key={"Before After Image" + i}><BeforeAfterImage before={image.before} after={image.after} altText={image.text} />  </li>
+                <li key={"Before After Image" + i}>
+                    <BeforeAfterImage 
+                        before={image.before} 
+                        after={image.after} 
+                        altText={image.text} />  
+                </li>
             )
         })
 
