@@ -68,6 +68,14 @@
           }
         }
 
+        & .services-faq {
+          & p {
+            width: 100%;
+            align-self: flex-start;
+            text-align: left;
+          }
+        }
+
         & .about-me {
           flex-flow: row wrap;
 
@@ -231,6 +239,14 @@
             & p {
               text-align: right;
             }
+          }
+        }
+
+        & .services-faq {
+          & p {
+            width: 70%;
+            align-self: flex-end;
+            text-align: right;
           }
         }
 

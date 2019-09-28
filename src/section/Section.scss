@@ -117,7 +117,14 @@ section {
 
       /* services */
       & .services-faq {
+        display: flex;
+        flex-flow: column nowrap;
         margin-top: 2rem;
+        & p {
+          width: 70%;
+          align-self: flex-end;
+          text-align: right;
+        }
       }
 
       /* content for Contact */
