@@ -26,7 +26,7 @@ const ContactSection = () =>
 
                         <div className="map-locations">
                             <div className="col">
-                            <h2>Buena Park location</h2>
+                                <h2>Buena Park location</h2>
 
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.2204273347766!2d-118.01480488435615!3d33.83242563672852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd295155beab0d%3A0x7fdd045e56d9ce0!2s8951%20Knott%20Ave%2C%20Buena%20Park%2C%20CA%2090620!5e0!3m2!1sen!2sus!4v1569528251989!5m2!1sen!2sus" width="250" height="250" frameBorder="0" style={{border:"0.1rem solid #393939"}} allowFullScreen="" title="Buena Park location"></iframe>
                             </div>

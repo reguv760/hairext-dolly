@@ -21,17 +21,17 @@ const HomeSection = () =>
                         
                         <br/>
 
-                        <h1 className="phoneNumber">
-                            <a href="tel:714 235 3002">
-                            714 235 3002</a>
-                        </h1>
                         <div className="home-locations">
                             <div className="col">
                                 <p className="location">
                                     <span className="bold-text">Tommies Hair Stylist</span><br/>
                                     8951 Knott Ave., #I<br/>
-                                    Buena Park, CA 90620<br/>
+                                    Buena Park, CA 90620<br/>                                    
                                 </p>
+                                <h1 className="phoneNumber">
+                                    <a href="tel:714 235 3002">
+                                    714 235 3002</a>
+                                </h1>
                             </div>
                         </div>
                     </div>
