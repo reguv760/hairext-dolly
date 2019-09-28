@@ -8,10 +8,11 @@
     border: 0.12rem solid $off-gray;
     margin: 0;
     padding: 0;
+    border-radius: 0.3rem;
   }
 
   & img:hover {
     cursor: pointer;
-    opacity: 0.8;
+    border: 0.12rem solid $dollyMagenta;
   }
 }
