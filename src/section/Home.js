@@ -16,8 +16,7 @@ const HomeSection = () =>
 
                         <h2>HairDreams</h2>
 
-                        <p>Styling hair out of my salon located in Buena Park, CA.<br/>
-                         I offer a new and different type of hair extension directly from Europe. <a href="https://www.hairdreams.com/en-us/" target="_blank" rel="noopener noreferrer">Hairdreams Hair Extensions</a> are the diamond among all other hair extensions. Stylish and safe, let me make your dreams of long, full beautiful hair come true in a matter of <span className="italic-text">hours!</span></p>                                
+                        <p>Styling hair out of my salon located in Buena Park, CA., I offer a new and different type of hair extension directly from Europe: <a href="https://www.hairdreams.com/en-us/" target="_blank" rel="noopener noreferrer">Hairdreams Hair Extensions</a>. They are the diamond among all other hair extensions. Stylish and safe, let me make your dreams of long, full beautiful hair come true in a matter of <span className="italic-text">hours!</span></p>                                
                         
                         <br/>
 

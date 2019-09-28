@@ -39,7 +39,7 @@ class App extends React.Component
                 <Helmet>
                     <meta name="Keywords" content="Hair Extensions, thickening, lengthening, microline, dream hair, Quickies, human hair, nylon bond or bonded, Buena Park, Hair Dreams, Southern California, Orange County, Los Angeles, Anaheim, La Palma, Cerritos, Cypress, Long Beach, Salon, CBD" />
 
-                    <meta name="Description" content="Styling hair out of my salon located in Buena Park, CA. I offer a new and different type of hair extension directly from Europe. Hairdreams Hair Extensions are the diamond among all other hair extensions." />
+                    <meta name="Description" content="Styling hair out of my salon located in Buena Park, CA., I offer a new and different type of hair extension directly from Europe: Hairdreams Hair Extensions. They are the diamond among all other hair extensions." />
 
                     <meta name="Author" content="reguv760@gmail.com"></meta>
                 </Helmet>    

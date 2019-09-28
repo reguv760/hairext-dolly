@@ -13,6 +13,7 @@ section {
 
     & .bold-text {
       font-weight: bold;
+      vertical-align: middle;
     }
 
     & .italic-text {
@@ -41,7 +42,7 @@ section {
 
       /** global headers **/
       & h1 {
-        display: block;
+        display: inline-block;
         font-weight: bold;
         text-transform: uppercase;
         font-size: 1.6rem;
@@ -50,7 +51,7 @@ section {
       }
 
       & h2 {
-        display: block;
+        display: inline-block;
         font-size: bold;
         letter-spacing: 0.05em;
         margin: 0;
@@ -69,8 +70,7 @@ section {
 
       /* used by service */
       & .serviceHeader {
-        margin-left: 0.8rem;
-        line-height: 1rem;
+        margin: 0.6rem;
       }
 
       /* hair graphic */
@@ -79,7 +79,7 @@ section {
         width: 1.4rem;
         height: 1.4rem;
         padding: 0;
-        vertical-align: center;
+        vertical-align: middle;
       }
 
       & h4 {
