@@ -34,10 +34,6 @@ const AboutSection = () =>
                         <p>Trust me, the possibilities are <span className="italic-text">endless!</span>
                         <br/> Whether you want to add length, volume, color or just upgrade a hairstyle, I can make your dream hair come true!</p>
 
-                        
-                        <p>I also serve two locations: Buena Park, CA and Mission Viejo, CA.</p>
-                       
-
                         <div className="about-cbd">
                             <div className="col">
                                 <img src={CBDPackages} alt="CBD products" />
