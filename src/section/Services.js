@@ -1,6 +1,9 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
-import ScrollableAnchor from 'react-scrollable-anchor'
+import ScrollableAnchor from 'react-scrollable-anchor';
+
+import HairGraphic from './../img/graphicHair-symbol.svg';
+
 
 const ServicesSection = () =>
 {
@@ -10,12 +13,29 @@ const ServicesSection = () =>
             <Container className="section-container">
                     <div className="section-container__text">
                         <h1>Services</h1>
-                        <p><span className="bold-text serviceHeader">Microline:</span><br/>I now have 3 options for the person with fine thinning hair. A <span className="italic-text">microline</span> stays in for up to <span className="bold-text">4 weeks</span> and can be worn while swimming, sweating or showering.</p>                        
+                        <p>
+                            <img
+                                src={HairGraphic} 
+                                className="hairGraphic" 
+                                alt="Hair Graphic"/>
+                            <span className="bold-text serviceHeader">Microline:</span><br/>I now have 3 options for the person with fine thinning hair. A <span className="italic-text">microline</span> stays in for up to <span className="bold-text">4 weeks</span> and can be worn while swimming, sweating or showering.
+                        </p>                        
 
-                        <p><span className="bold-text serviceHeader">Highline/Top-Hair:</span><br/>I also offer a <span className="italic-text">highline</span> or <span className="italic-text">top-hair </span>to take care of any hairloss issues. A top-up is done after <span className="bold-text">4 weeks</span> to tighten up your hairpiece.
-                        You can combine a microline with extensions to make your hair beautiful, thick and luxurious for the ultimate combination!</p>
+                        <p>
+                            <img
+                                src={HairGraphic} 
+                                className="hairGraphic" 
+                                alt="Hair Graphic"/>
+                            <span className="bold-text serviceHeader">Highline/Top-Hair:</span><br/>I also offer a <span className="italic-text">highline</span> or <span className="italic-text">top-hair </span>to take care of any hairloss issues. A top-up is done after <span className="bold-text">4 weeks</span> to tighten up your hairpiece. You can combine a microline with extensions to make your hair beautiful, thick and luxurious for the ultimate combination!
+                        </p>
 
-                        <p><span className="bold-text serviceHeader">Quickies:</span><br/>I also offer <span className="italic-text">Quickies</span>, our new tape-in extensions that stay in for <span className="bold-text">6-8 weeks</span>. They are the same beautiful hair but a little more affordable for the person who would like a non-permanent extension.</p>
+                        <p>
+                            <img
+                                src={HairGraphic} 
+                                className="hairGraphic" 
+                                alt="Hair Graphic"/>
+                            <span className="bold-text serviceHeader">Quickies:</span><br/>I also offer <span className="italic-text">Quickies</span>, our new tape-in extensions that stay in for <span className="bold-text">6-8 weeks</span>. They are the same beautiful hair but a little more affordable for the person who would like a non-permanent extension.
+                        </p>
                         
                         <div className="services-faq">
                             <h2>FAQ</h2>    

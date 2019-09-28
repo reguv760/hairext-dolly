@@ -58,13 +58,28 @@ section {
       }
 
       & h3 {
-        display: block;
+        display: inline-block;
         color: $dollyMagenta;
         font-size: 1.2rem;
         font-weight: bold;
         letter-spacing: 0.05em;
         padding: 0;
         margin: 1rem 0 0;
+      }
+
+      /* used by service */
+      & .serviceHeader {
+        margin-left: 0.8rem;
+        line-height: 1rem;
+      }
+
+      /* hair graphic */
+      * .hairGraphic {
+        display: inline-block;
+        width: 1.4rem;
+        height: 1.4rem;
+        padding: 0;
+        vertical-align: center;
       }
 
       & h4 {
