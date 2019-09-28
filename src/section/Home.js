@@ -26,19 +26,11 @@ const HomeSection = () =>
                             714 235 3002</a>
                         </h1>
                         <div className="home-locations">
-                        <h2>Locations:</h2>
                             <div className="col">
                                 <p className="location">
                                     <span className="bold-text">Tommies Hair Stylist</span><br/>
                                     8951 Knott Ave., #I<br/>
                                     Buena Park, CA 90620<br/>
-                                </p>
-                            </div>
-                            <div className="col">
-                                <p className="location"> 
-                                    <span className="bold-text">Always Hair</span><br/>
-                                    27001 La Paz Rd Suite 192<br/>
-                                    Mission Viejo, CA 92691<br/>
                                 </p>
                             </div>
                         </div>
