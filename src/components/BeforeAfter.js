@@ -1,4 +1,5 @@
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 
 /* component */
 import BeforeAfterImage from './BeforeAfterImage';
@@ -69,10 +70,13 @@ class BeforeAfter extends React.Component
         {
             return (
                 <li key={"Before After Image" + i}>
-                    <BeforeAfterImage 
-                        before={image.before} 
-                        after={image.after} 
-                        altText={image.text} />  
+                    
+                    <LazyLoad height={250} once >
+                        <BeforeAfterImage 
+                            before={image.before} 
+                            after={image.after} 
+                            altText={image.text} />  
+                    </LazyLoad>
                 </li>
             )
         })
