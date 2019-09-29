@@ -13,7 +13,6 @@ section {
 
     & .bold-text {
       font-weight: bold;
-      vertical-align: middle;
     }
 
     & .italic-text {
@@ -70,6 +69,7 @@ section {
 
       /* used by service */
       & .serviceHeader {
+        vertical-align: middle;
         margin: 0.6rem 0 0 0.6rem;
       }
 
