@@ -6,9 +6,14 @@ footer {
   border-radius: 0.25rem;
   text-align: center;
   font-size: 0.8rem;
+  height: 100%;
 
   & a {
     text-decoration: none;
     color: $dollyMagenta;
+  }
+
+  & a:hover {
+    color: $off-black;
   }
 }
