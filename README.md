@@ -43,6 +43,12 @@ This is a client project that uses the following libraries:
 
 `npm install --save react-helmet`
 
+7. react-lazyload
+
+- load images ONLY when it is within viewport
+
+`npm install --save react-lazyload`
+
 ## Available Scripts
 
 In the project directory, you can run:

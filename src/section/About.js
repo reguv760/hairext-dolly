@@ -1,4 +1,5 @@
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import Container from '@material-ui/core/Container';
 import ScrollableAnchor from 'react-scrollable-anchor'
 
@@ -19,11 +20,16 @@ const AboutSection = () =>
 
                         <div className="about-me">
                             <div className="col">
-                                <img src={DollySalon} alt="Salon" />
+                                <LazyLoad height={400} once >
+                                    <img src={DollySalon} alt="Salon" />
+                                </LazyLoad>
                             </div>
                             <div className="col">
                                
-                                <img src={DollySelfie} alt="Dolly Hoffman selfie" />
+                                <LazyLoad height={400} once >
+                                    <img src={DollySelfie} alt="Dolly Hoffman selfie" />
+                                
+                                </LazyLoad>
                             </div>
                         </div>
 
@@ -36,7 +42,11 @@ const AboutSection = () =>
 
                         <div className="about-cbd">
                             <div className="col">
-                                <img src={CBDPackages} alt="CBD products" />
+                                    
+                                <LazyLoad height={400} once >
+                                    <img src={CBDPackages} alt="CBD products" />
+                                </LazyLoad>
+                                
                                 <p>I now offer CBD creams and serums that are made with <span className="italic-text">all natural ingredients.</span> They are manufactured by <span className="italic-text">Earthly Body</span>, a trusted manufacturer with quality ingredients since 1996. They are 100% vegan! If you’re living with aches and pains, you will <span className="italic-text">love</span> these products! </p>
 
                                 <p>Also there is <span className="italic-text">no THC</span> in the products!</p>
