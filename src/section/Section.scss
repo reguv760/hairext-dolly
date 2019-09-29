@@ -22,6 +22,7 @@ section {
 
     & a {
       text-decoration: none;
+      font-weight: bold;
       color: $dollyMagenta;
     }
 
@@ -111,7 +112,7 @@ section {
         letter-spacing: 0.03em;
         margin: 1rem 0;
         padding: 0;
-        line-height: 1.8rem;
+        line-height: 2rem;
       }
 
       /*** content section ***/
