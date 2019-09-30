@@ -108,6 +108,8 @@
             padding: 0;
 
             & li {
+              width: 15rem;
+              height: 15rem;
               & img {
                 width: 15rem;
                 height: 15rem;
@@ -348,9 +350,16 @@
   section {
     & .section-container {
       &__text {
+        & h1.phoneNumber,
+        & h1.email {
+          font-size: 1.1rem;
+        }
+
         & .beforeAfter {
           &-container {
             & li {
+              width: 12rem;
+              height: 12rem;
               & img {
                 width: 12rem;
                 height: 12rem;
@@ -361,6 +370,15 @@
 
         & .map-locations {
           justify-content: center;
+          & .col {
+            & h2 {
+              font-size: 1.2rem;
+            }
+            & .google-mapLocation {
+              width: 14rem;
+              height: 14rem;
+            }
+          }
         }
       }
     }
