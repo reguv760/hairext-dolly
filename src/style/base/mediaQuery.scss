@@ -99,6 +99,11 @@
 
           & .col {
             flex-flow: column wrap;
+
+            & .google-mapLocation {
+              width: 14rem;
+              height: 14rem;
+            }
           }
         }
 
@@ -176,6 +181,13 @@
         & .map-locations {
           justify-content: center;
           flex-flow: row nowrap;
+
+          & .col {
+            & .google-mapLocation {
+              width: 18rem;
+              height: 18rem;
+            }
+          }
         }
 
         & .beforeAfter {
@@ -373,10 +385,6 @@
           & .col {
             & h2 {
               font-size: 1.2rem;
-            }
-            & .google-mapLocation {
-              width: 14rem;
-              height: 14rem;
             }
           }
         }
