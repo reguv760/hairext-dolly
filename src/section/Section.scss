@@ -186,7 +186,7 @@ section {
 
           & img {
             display: block;
-            border-radius: 0.3rem;
+            border-radius: 0.5rem;
             border: 0.12rem solid $dollyMagenta;
             padding: 0px;
             margin: 0px;
@@ -212,10 +212,10 @@ section {
           & img {
             display: block;
             border-radius: 0.5rem;
-            border: 0.1rem solid $dollyMagenta;
+            border: 0.12rem solid $dollyMagenta;
             padding: 0;
             margin: 0;
-            object-fit: contain;
+            object-fit: cover;
             max-width: 40rem;
             width: 100%;
             height: auto;

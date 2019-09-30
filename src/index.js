@@ -18,4 +18,5 @@ ReactDOM.render(<CssBaseline><App/></CssBaseline>, document.getElementById('root
 
 //hrs18 - wip
 //hrs2 - wire
+//hrs1 - safari fixes
 serviceWorker.unregister();
