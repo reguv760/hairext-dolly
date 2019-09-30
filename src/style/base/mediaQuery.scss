@@ -286,6 +286,19 @@
           }
         }
 
+        & .beforeAfter {
+          &-container {
+            & li {
+              width: 15rem;
+              height: 15rem;
+              & img {
+                width: 15rem;
+                height: 15rem;
+              }
+            }
+          }
+        }
+
         & .map-locations {
           justify-content: flex-end;
         }
