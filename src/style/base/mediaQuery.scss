@@ -48,7 +48,7 @@
       &__text {
         & h1.phoneNumber,
         & h1.email {
-          font-size: 1.2rem;
+          font-size: 1.1rem;
         }
 
         & .serviceHeader {
@@ -375,10 +375,10 @@
   section {
     & .section-container {
       &__text {
-        & h1.phoneNumber,
-        & h1.email {
-          font-size: 1.1rem;
-        }
+        // & h1.phoneNumber,
+        // & h1.email {
+        //   font-size: 1.1rem;
+        // }
 
         & .beforeAfter {
           &-container {
