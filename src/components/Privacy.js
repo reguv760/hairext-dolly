@@ -10,7 +10,7 @@ const PrivacyButtonStyle = styled.button`
     padding: 0;
     margin: 0;
     cursor: pointer;
-    color: #333;
+    color: #e45095;
 `;
 
 const PrivacyHeaderStyle = styled.h1`
@@ -25,8 +25,6 @@ const PrivacyLinkStyle = styled.a`
     text-decoration: none;
     color: #e45095;
 `
-
-
 
 function getModalStyle() {
     const top = 50;
