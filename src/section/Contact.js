@@ -11,6 +11,7 @@ const ContactSection = () =>
                     <div className="section-container__text">
                         <h1>Contact</h1>
 
+                        <p>To setup an appointment, please <span className="bold-text">email</span> or <span className="bold-text">call:</span></p>      
                         <h1 className="email">
                             <a href="mailto:hcoolhouse56@yahoo.com?subject=Hair%20Extensions%20by%20Dolly%20Website">hcoolhouse56@yahoo.com</a>
                         </h1>

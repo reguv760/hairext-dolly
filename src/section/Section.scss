@@ -127,6 +127,8 @@ section {
 
           & p {
             width: 100%;
+            margin: 0 0 1rem 0;
+            padding: 0;
             text-align: right;
           }
         }
@@ -157,6 +159,11 @@ section {
           display: flex;
           flex-flow: column nowrap;
           margin: 1rem;
+
+          & p {
+            margin: 0;
+            padding: 0;
+          }
 
           & h2 {
             margin: 0.5rem 0;

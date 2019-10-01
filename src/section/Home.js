@@ -1,6 +1,5 @@
 import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor'
-
 import Container from '@material-ui/core/Container';
 
 
@@ -22,6 +21,7 @@ const HomeSection = () =>
 
                         <div className="home-locations">
                             <div className="col">
+                                <p>To setup an appointment, please <span className="bold-text">visit</span> or <span className="bold-text">call:</span></p>                          
                                 <p className="location">
                                     <span className="bold-text">Tommies Hair Stylist</span><br/>
                                     8951 Knott Ave., #I<br/>
