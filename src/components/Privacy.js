@@ -3,9 +3,6 @@ import Modal from '@material-ui/core/Modal';
 import { makeStyles } from '@material-ui/core/styles';
 import styled from 'styled-components';
 
-import './../style/style.scss';
-
-
 const PrivacyButtonStyle = styled.button`
     display: inline-block;
     background:none;
