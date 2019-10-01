@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 
 const PrivacyButtonStyle = styled.button`
+    display: inline-block;
     background:none;
     border: 0;
     padding: 0;
