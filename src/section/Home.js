@@ -21,7 +21,7 @@ const HomeSection = () =>
 
                         <div className="home-locations">
                             <div className="col">
-                                <p>To setup an appointment, please <span className="bold-text">visit</span> or <span className="bold-text">call:</span></p>                          
+                                <p>To setup an appointment, please <span className="bold-text">call</span> or <span className="bold-text">visit:</span></p>                          
                                 <p className="location">
                                     <address style={{fontStyle: "normal"}}>
                                         <span className="bold-text">Tommie's Hair Stylist</span><br/>

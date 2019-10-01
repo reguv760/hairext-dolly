@@ -21,7 +21,7 @@ const ContactSection = () =>
                             714 235 3002</a>
                         </h1>
                         
-                        <p>I'm available <span className="italic-text">Monday thru Friday, 9am – 5pm.</span> I can be available evenings and Saturdays upon special requests.</p>
+                        <p>I'm available <span className="italic-text">Monday thru Friday, 9am – 5pm.</span> <br/>I can be available evenings and Saturdays upon special requests.</p>
                         <p>Mention this website and receive <span className="bold-text">10% off your first visit!</span></p>
 
 

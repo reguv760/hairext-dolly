@@ -11,6 +11,11 @@ const PrivacyButtonStyle = styled.button`
     margin: 0;
     cursor: pointer;
     color: #e45095;
+
+    :hover 
+    {
+        color: #090909;
+    }
 `;
 
 const PrivacyHeaderStyle = styled.h1`
@@ -90,14 +95,14 @@ export default function SimpleModal() {
                 <PrivacyHeaderStyle>Welcome to our Privacy Policy</PrivacyHeaderStyle>
                 <h3>Your privacy is critically important to us.</h3>
                 Tommie's Hair Stylist is located at:<br/>
-                <address>Tommie's Hair Stylist<br/>8951 Knott Ave. #I Buena Park, CA<br/>90620 US<br/>714 235 3002</address>
+                <address>Tommie's Hair Stylist<br/>8951 Knott Ave. #I<br/>Buena Park, CA<br/>90620 US<br/>714 235 3002</address>
 
                 <p>It is Tommie's Hair Stylist's policy to respect your privacy regarding any information we may collect while operating our website. This Privacy Policy applies to <PrivacyLinkStyle href="http://hairextensionsbydolly.com">hairextensionsbydolly.com</PrivacyLinkStyle> (hereinafter, "us", "we", or "hairextensionsbydolly.com"). We respect your privacy and are committed to protecting personally identifiable information you may provide us through the Website. We have adopted this privacy policy ("Privacy Policy") to explain what information may be collected on our Website, how we use this information, and under what circumstances we may disclose the information to third parties. This Privacy Policy applies only to information we collect through the Website and does not apply to our collection of information from other sources.</p>
                 <p>This Privacy Policy, together with the Terms and conditions posted on our Website, set forth the general rules and policies governing your use of our Website. Depending on your activities when visiting our Website, you may be required to agree to additional terms and conditions.</p>
 
                 <PrivacySmallHeaderStyle>Website Visitors</PrivacySmallHeaderStyle>
                 <p>Like most website operators, Tommie's Hair Stylist collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Tommie's Hair Stylist's purpose in collecting non-personally identifying information is to better understand how Tommie's Hair Stylist's visitors use its website. From time to time, Tommie's Hair Stylist may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.</p>
-                <p>Tommie's Hair Stylist also collects potentially personally-identifying information like Internet Protocol (IP) addresses for logged in users and for users leaving comments on http://hairextensionsbydolly.com blog posts. Tommie's Hair Stylist only discloses logged in user and commenter IP addresses under the same circumstances that it uses and discloses personally-identifying information as described below.</p>
+                <p>Tommie's Hair Stylist also collects potentially personally-identifying information like Internet Protocol (IP) addresses for logged in users. Tommie's Hair Stylist only discloses logged in user and commenter IP addresses under the same circumstances that it uses and discloses personally-identifying information as described below.</p>
                 
                 <PrivacySmallHeaderStyle>Security</PrivacySmallHeaderStyle>
                 <p>The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</p>
