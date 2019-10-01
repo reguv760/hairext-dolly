@@ -48,9 +48,9 @@ const useStyles = makeStyles(theme => ({
         fontFamily: '"Open Sans", sans-serif',
         position: 'absolute',
         width: '100%',
-        maxWidth: 'calc(100vw - 15rem)',
-        minWidth: '80vw',
-        maxHeight: '80vh',
+        maxWidth: 'calc(100vw - 16rem)',
+        minWidth: '75vw',
+        maxHeight: '75vh',
         margin: '0',
         backgroundColor: theme.palette.background.paper,
         boxShadow: theme.shadows[5],
@@ -119,7 +119,7 @@ export default function SimpleModal() {
                 <p>Although most changes are likely to be minor, Tommie's Hair Stylist may change its Privacy Policy from time to time, and in Tommie's Hair Stylist's sole discretion. Tommie's Hair Stylist encourages visitors to frequently check this page for any changes to its Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.</p>
                     
                 <PrivacySmallHeaderStyle>Credit & Contact Information</PrivacySmallHeaderStyle>
-                <p>If you have any questions about this Privacy Policy, please contact us via <a href="mailto:hcoolhouse56@yahoo.com">email</a>, or <a href="tel:7142353002">phone</a>.</p>
+                <p>If you have any questions about this Privacy Policy, please contact us via <PrivacyLinkStyle href="mailto:hcoolhouse56@yahoo.com">email</PrivacyLinkStyle>, or <PrivacyLinkStyle href="tel:7142353002">phone</PrivacyLinkStyle>.</p>
                 </div>
             </Modal>
         </div>
