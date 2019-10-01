@@ -1,5 +1,6 @@
 footer {
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
   margin: 1rem 0;
   padding: 0;
@@ -15,5 +16,9 @@ footer {
 
   & a:hover {
     color: $off-black;
+  }
+
+  & button:hover {
+    opacity: 0.75;
   }
 }
