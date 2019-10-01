@@ -24,7 +24,7 @@ const HomeSection = () =>
                                 <p>To setup an appointment, please <span className="bold-text">visit</span> or <span className="bold-text">call:</span></p>                          
                                 <p className="location">
                                     <address style={{fontStyle: "normal"}}>
-                                        <span className="bold-text">Tommies Hair Stylist</span><br/>
+                                        <span className="bold-text">Tommie's Hair Stylist</span><br/>
                                         8951 Knott Ave., #I<br/>
                                         Buena Park, CA 90620<br/>     
                                     </address>                               
