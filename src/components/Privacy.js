@@ -43,7 +43,7 @@ const useStyles = makeStyles(theme => ({
         margin: '0',
         backgroundColor: theme.palette.background.paper,
         boxShadow: theme.shadows[5],
-        padding: theme.spacing(2, 4, 3),
+        padding: theme.spacing(0, 4, 3),
         overflow:'scroll',
         overflowX:'hidden'
     },
