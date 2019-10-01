@@ -102,13 +102,13 @@ export default function SimpleModal() {
 
                 <PrivacySmallHeaderStyle>Website Visitors</PrivacySmallHeaderStyle>
                 <p>Like most website operators, Tommie's Hair Stylist collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Tommie's Hair Stylist's purpose in collecting non-personally identifying information is to better understand how Tommie's Hair Stylist's visitors use its website. From time to time, Tommie's Hair Stylist may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.</p>
-                <p>Tommie's Hair Stylist also collects potentially personally-identifying information like Internet Protocol (IP) addresses for logged in users. Tommie's Hair Stylist only discloses logged in user and commenter IP addresses under the same circumstances that it uses and discloses personally-identifying information as described below.</p>
+                <p>Tommie's Hair Stylist also collects potentially personally-identifying information like Internet Protocol (IP) addresses for logged in users. Tommie's Hair Stylist only discloses logged in user IP addresses under the same circumstances that it uses and discloses personally-identifying information as described below.</p>
                 
                 <PrivacySmallHeaderStyle>Security</PrivacySmallHeaderStyle>
                 <p>The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</p>
                     
-                <PrivacySmallHeaderStyle>Advertisements</PrivacySmallHeaderStyle>
-                <p>Ads appearing on our website may be delivered to users by advertising partners, who may set cookies. These cookies allow the ad server to recognize your computer each time they send you an online advertisement to compile information about you or others who use your computer. This information allows ad networks to, among other things, deliver targeted advertisements that they believe will be of most interest to you. This Privacy Policy covers the use of cookies by Tommie's Hair Stylist and does not cover the use of cookies by any advertisers.</p>
+                {/* <PrivacySmallHeaderStyle>Advertisements</PrivacySmallHeaderStyle>
+                <p>Ads appearing on our website may be delivered to users by advertising partners, who may set cookies. These cookies allow the ad server to recognize your computer each time they send you an online advertisement to compile information about you or others who use your computer. This information allows ad networks to, among other things, deliver targeted advertisements that they believe will be of most interest to you. This Privacy Policy covers the use of cookies by Tommie's Hair Stylist and does not cover the use of cookies by any advertisers.</p> */}
                     
 
                 <PrivacySmallHeaderStyle>Links To External Sites</PrivacySmallHeaderStyle>
