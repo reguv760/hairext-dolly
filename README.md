@@ -32,10 +32,11 @@ This is a client project that uses the following libraries:
 5. material-ui: core, icons and styles
 
 - style provided by Google
-- CircularProgress uses @material-ui/styles in Gallery
+- Modal uses @material-ui/styles in Privacy
 
 `npm install @material-ui/core`
 `npm install @material-ui/icons`
+`npm install @material-ui/styles`
 
 6. react-helmet
 
