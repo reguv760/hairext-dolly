@@ -333,7 +333,6 @@
 @media (min-height: 0px) {
   #image-background {
     & .col.image {
-      width: 100%;
       & img {
         width: 50%;
       }
@@ -344,7 +343,6 @@
 @media (min-height: 600px) {
   #image-background {
     & .col.image {
-      width: 100%;
       & img {
         width: 90%;
       }
@@ -356,10 +354,66 @@
 /* portrait */
 @media only screen and (max-device-width: 1024px) and (max-device-height: 1336px) {
   #image-background {
-    & .col {
+    & .col.image {
       width: 100%;
       & img {
         width: 100%;
+      }
+    }
+  }
+}
+
+/* Galaxy S9/S9+ query */
+/* landscape */
+@media only screen and (max-device-width: 740px) and (max-device-height: 360px) {
+  #image-background {
+    & .col.image {
+      width: 100%;
+      & img {
+        width: 50%;
+        height: auto;
+      }
+    }
+  }
+}
+
+/* iphone X plus query */
+/* landscape */
+@media only screen and (max-device-width: 812px) and (max-device-height: 375px) {
+  #image-background {
+    & .col.image {
+      width: 100%;
+      & img {
+        width: 40%;
+        height: auto;
+      }
+    }
+  }
+}
+
+/* iphone 6/7/8 plus query */
+/* landscape */
+@media only screen and (max-device-width: 736px) and (max-device-height: 414px) {
+  #image-background {
+    & .col.image {
+      width: 100%;
+      & img {
+        width: 50%;
+        height: auto;
+      }
+    }
+  }
+}
+
+/* iphone 6/7/8 query */
+/* landscape */
+@media only screen and (max-device-width: 667px) and (max-device-height: 375px) {
+  #image-background {
+    & .col.image {
+      width: 100%;
+      & img {
+        width: 50%;
+        height: auto;
       }
     }
   }
@@ -369,7 +423,8 @@
 /* landscape */
 @media only screen and (max-device-width: 568px) and (max-device-height: 320px) {
   #image-background {
-    & .col {
+    & .col.image {
+      width: 100%;
       & img {
         width: 50%;
         height: auto;
