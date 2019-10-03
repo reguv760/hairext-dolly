@@ -364,12 +364,13 @@
 }
 
 /* iPad Pro 12.9 */
-@media only screen and (max-device-width: 1024px) and (max-device-height: 1336px) {
+/* portrait */
+@media only screen and (max-device-width: 1024px) and (max-device-height: 1366px) {
   #image-background {
     & .col.image {
       width: 100%;
       & img {
-        width: 100%;
+        width: 90%;
       }
     }
   }
@@ -383,6 +384,20 @@
       width: 75%;
       & img {
         width: 100%;
+      }
+    }
+  }
+}
+
+/* Pixel 2XL query */
+/* landscape */
+@media only screen and (max-device-width: 823px) and (max-device-height: 411px) {
+  #image-background {
+    & .col.image {
+      width: 100%;
+      & img {
+        width: 50%;
+        height: auto;
       }
     }
   }
