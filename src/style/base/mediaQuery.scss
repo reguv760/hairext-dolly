@@ -146,11 +146,13 @@
       }
     }
   }
-  .section-container {
-    &__text {
-      & p {
-        font-size: 1.1rem;
-        width: 100%;
+  section {
+    .section-container {
+      &__text {
+        & p {
+          font-size: 1.1rem;
+          width: 100%;
+        }
       }
     }
   }
@@ -174,7 +176,6 @@
         }
 
         & p {
-          font-size: 1.2rem;
           width: 100%;
           align-self: flex-end;
         }
@@ -254,6 +255,7 @@
           align-self: flex-end;
           text-align: right;
           width: 65%;
+          font-size: 1.2rem;
         }
 
         & .home-locations {

@@ -8,6 +8,10 @@
         width: 100%;
       }
     }
+
+    & .col.right {
+      width: 25%;
+    }
   }
 }
 
@@ -18,8 +22,11 @@
     & .col.image {
       width: 100%;
       & img {
-        width: 90%;
+        width: 60%;
       }
+    }
+    & .col.right {
+      width: 0;
     }
   }
 }
@@ -34,6 +41,9 @@
         width: 100%;
       }
     }
+    & .col.right {
+      width: 25%;
+    }
   }
 }
 
@@ -44,9 +54,27 @@
     & .col.image {
       width: 100%;
       & img {
-        width: 50%;
-        height: auto;
+        width: 75%;
       }
+    }
+    & .col.right {
+      width: 0;
+    }
+  }
+}
+
+/* portrait */
+@media only screen and (max-device-width: 411px) and (max-device-height: 823px) {
+  #image-background {
+    & .col.image {
+      width: 100%;
+      & img {
+        width: 100%;
+      }
+    }
+
+    & .col.right {
+      width: 0;
     }
   }
 }
@@ -62,6 +90,9 @@
         height: auto;
       }
     }
+    & .col.right {
+      width: 0;
+    }
   }
 }
 
@@ -69,6 +100,9 @@
   #image-background {
     & .col.image {
       width: 100%;
+    }
+    & .col.right {
+      width: 0%;
     }
   }
 }
@@ -80,9 +114,27 @@
     & .col.image {
       width: 100%;
       & img {
-        width: 40%;
+        width: 75%;
         height: auto;
       }
+    }
+    & .col.right {
+      width: 0;
+    }
+  }
+}
+
+@media only screen and (max-device-width: 375px) and (max-device-height: 812px) {
+  #image-background {
+    & .col.image {
+      width: 100%;
+      & img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    & .col.right {
+      width: 0;
     }
   }
 }
@@ -94,9 +146,12 @@
     & .col.image {
       width: 100%;
       & img {
-        width: 50%;
+        width: 75%;
         height: auto;
       }
+    }
+    & .col.right {
+      width: 0;
     }
   }
 }
@@ -106,6 +161,9 @@
   #image-background {
     & .col.image {
       width: 100%;
+    }
+    & .col.right {
+      width: 0;
     }
   }
 }
@@ -117,9 +175,12 @@
     & .col.image {
       width: 100%;
       & img {
-        width: 50%;
+        width: 75%;
         height: auto;
       }
+    }
+    & .col.right {
+      width: 0;
     }
   }
 }
@@ -128,6 +189,9 @@
   #image-background {
     & .col.image {
       width: 100%;
+    }
+    & .col.right {
+      width: 0;
     }
   }
 }
@@ -143,6 +207,9 @@
         height: auto;
       }
     }
+    & .col.right {
+      width: 0;
+    }
   }
 }
 
@@ -151,9 +218,12 @@
     & .col.image {
       width: 100%;
       & img {
-        width: 125%;
+        width: 75%;
         height: auto;
       }
+    }
+    & .col.right {
+      width: 0;
     }
   }
 
