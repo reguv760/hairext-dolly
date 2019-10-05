@@ -230,11 +230,6 @@
   section {
     & .section-container {
       &__text {
-        // & h1.phoneNumber,
-        // & h1.email {
-        //   font-size: 1.1rem;
-        // }
-
         & .beforeAfter {
           &-container {
             & li {
@@ -262,8 +257,7 @@
 }
 
 /* Galaxy S8/S8+ query */
-/* landscape */ //@media only screen and (max-device-width: 2960px) and (max-device-height: 1440px) {
-//@media only screen and (max-device-width: 740px) and (max-device-height: 360px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+/* landscape */
 @media only screen and (max-device-width: 2960px) and (max-device-height: 1440px) and (orientation: landscape) {
   #image-background {
     & .col.image {
@@ -276,22 +270,25 @@
   }
 }
 
+@media only screen and (max-device-width: 1440px) and (max-device-height: 2960px) and (orientation: portrait) {
+  #image-background {
+    & .col.image {
+      width: 100%;
+      & img {
+        width: 100%;
+      }
+    }
+
+    & .col.right {
+      width: 0;
+    }
+  }
+}
+
 // @media only screen and (max-device-width: 740px) and (max-device-height: 360px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
 //   #image-background {
 //     & .col.image {
 //       width: 100%;
-//     }
-
-//     & .col.right {
-//       width: 50%;
-//     }
-//   }
-// }
-/* portrait */
-// @media only screen and (max-device-width: 1440px) and (max-device-height: 2960px) {
-//   #image-background {
-//     & .col.image {
-//       width: 50%;
 //     }
 
 //     & .col.right {
