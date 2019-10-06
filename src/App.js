@@ -45,7 +45,6 @@ class App extends React.Component
 
                     <link rel="preconnect" href="https://maps.gstatic.com" />
                     
-                    <link rel="preconnect" href="https://www.google.com" />
                 </Helmet>    
 
                 <MainContainer id="main-container">
