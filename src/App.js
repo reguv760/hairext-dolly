@@ -42,6 +42,10 @@ class App extends React.Component
                     <meta name="Description" content="Styling hair out of my salon located in Buena Park, CA., I offer a new and different type of hair extension directly from Europe: Hairdreams Hair Extensions. They are the diamond among all other hair extensions." />
 
                     <meta name="Author" content="reguv760@gmail.com"></meta>
+
+                    <link rel="preconnect" href="https://maps.gstatic.com" />
+                    
+                    <link rel="preconnect" href="https://www.google.com" />
                 </Helmet>    
 
                 <MainContainer id="main-container">
