@@ -44,6 +44,8 @@ class App extends React.Component
                     <meta name="Author" content="reguv760@gmail.com"></meta>
 
                     <link rel="preconnect" href="https://maps.gstatic.com" />
+
+                    <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com" />
                     
                 </Helmet>    
 
