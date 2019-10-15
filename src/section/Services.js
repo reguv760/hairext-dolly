@@ -13,12 +13,13 @@ const ServicesSection = () =>
             <Container className="section-container">
                     <div className="section-container__text">
                         <h1>Services</h1>
+                        <p>I now have 3 options for the person with fine thinning hair.</p>
                         <p>
                             <img
                                 src={HairGraphic} 
                                 className="hairGraphic" 
                                 alt="Hair Graphic"/>
-                            <span className="bold-text serviceHeader">Microline:</span><br/>I now have 3 options for the person with fine thinning hair. A <span className="italic-text">microline</span> stays in for up to <span className="bold-text">4 weeks</span> and can be worn while swimming, sweating or showering.
+                            <span className="bold-text serviceHeader">Microline:</span><br/> A <span className="italic-text">microline</span> stays in for up to <span className="bold-text">4 weeks</span> and can be worn while swimming, sweating or showering.
                         </p>                        
 
                         <p>
