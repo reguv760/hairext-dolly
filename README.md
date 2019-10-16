@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0577bd2e-95da-4dbe-a239-6c594c9c8b3a/deploy-status)](https://app.netlify.com/sites/dolly-rg/deploys)
+
 This site has been audited using LightHouse through Chrome DevTools  
 ![Google audit](./hairExt-audit-092719.jpg "Chrome Audit")
 
@@ -11,25 +13,19 @@ This is a client project that uses the following libraries:
 
 `npm install -s node-sass`
 
-2. npm-check
-
-- update all dependencies by running 'npm update'
-
-`npm install -D npm-check`
-
-3. styled-components
+2. styled-components
 
 - store css as constants
 
 `npm install -s styled-components`
 
-4. react-scrollable-anchor
+3. react-scrollable-anchor
 
 - animated scroll functionality based on navigation click
 
 `npm install -s react-scrollable-anchor`
 
-5. material-ui: core, icons and styles
+4. material-ui: core, icons and styles
 
 - style provided by Google
 - Modal uses @material-ui/styles in Privacy
@@ -38,13 +34,13 @@ This is a client project that uses the following libraries:
 `npm install @material-ui/icons`
 `npm install @material-ui/styles`
 
-6. react-helmet
+5. react-helmet
 
 - Add meta tags to public/index.html
 
 `npm install --save react-helmet`
 
-7. react-lazyload
+6. react-lazyload
 
 - load images ONLY when it is within viewport
 

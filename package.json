@@ -38,7 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "npm-check": "^5.9.0"
-  }
+  "devDependencies": {}
 }
